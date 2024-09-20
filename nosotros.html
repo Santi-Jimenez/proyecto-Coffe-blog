@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Perfomance con prefetch-->
+    <link rel="prefetch" href="cursos.html" as="document">
+
+    <!--Perfomance con preload-->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" as="font" crossorigin="crossorigin">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preload" href="css4to/normalize.css" as="style">
+    <link rel="stylesheet" href="css4to/normalize.css">
+
+    <link rel="preload" href="css4to/css4to.css" as="style"> 
+    <link rel="stylesheet" href="css4to/css4to.css">
+    <title>4to proyecto coffee blog</title>
+</head>
+<body>
+    <header class="header"> 
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">Decafé</span></h1>
+                </a>
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+        <div class="header-texto">
+            <h2>Blog de café con consejos y cursos</h2>
+            <p class="no-margin">Aprende de los expertos con las mejores recetas y consejos</p>
+        </div>
+    </header>
+    <main class="contenedor">
+        <h3 class="centrar-texto">Sobre Nosotros</h3>
+        <div class="nosotros">
+            <div class="nosotros-img ">
+                <img src="img/nosotros.jpg" alt="nosotros.img">
+            </div>
+            <div class="nosotros-texto">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed massa consequat, tincidunt dolor at, porttitor tortor. Maecenas pulvinar tortor nec tincidunt sollicitudin. Sed ac magna vel tellus vestibulum ullamcorper. Pellentesque elit turpis, sodales nec suscipit accumsan, suscipit nec velit. Pellentesque mattis vestibulum est, id rutrum neque sagittis quis. Proin varius justo sed lectus ultrices, nec sodales ante iaculis. Donec malesuada ante leo, et pretium enim aliquet in.
+    
+                    Sed ac suscipit tortor. Vivamus lobortis lorem vitae feugiat maximus. Cras et nulla in massa luctus malesuada. Duis volutpat tortor eget est condimentum, a luctus velit commodo. Suspendisse et hendrerit ipsum. Nunc sit amet scelerisque est. Integer euismod ante in mollis cursus. Phasellus condimentum, urna ac accumsan lobortis, lorem nunc laoreet enim, aliquet efficitur arcu arcu rutrum mauris.</p>
+            </div>
+        </div>
+        
+    </main>
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">Decafé</span></h1>
+                </a>
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/modernizr.js"></script>
+    <script src="js/scripts.js"></script>
+
+</body>
+</html>
